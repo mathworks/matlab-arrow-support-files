@@ -116,7 +116,8 @@ This essentially means, if there is some code in `arrow` e.g. <br>
 `arrow::status` it needs to be changed to `mwarrow::status` <br>
 
 ```diff
-- We are trying to get some feedback regarding whether there is a preferred way/off the shelf tooling to perform this sort of namespace isolation .
+- We are trying to get some feedback regarding whether there is a preferred way
+- off the shelf tooling to perform this sort of namespace isolation .
 ````
 We have some ideas to write a [Clang tidy custom matcher] to do this and see whether others in arrow community will be helped from this.
 
